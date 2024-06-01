@@ -1,0 +1,134 @@
+/* App.css */
+
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background-color: #eaf0f1;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 100vh;
+}
+
+.App {
+  text-align: center;
+  width: 100%;
+}
+
+/* Navbar styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #3498db;
+  color: white;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  margin: 0 15px;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+  color: #ecf0f1;
+}
+
+/* Auth user display */
+.user-info {
+  display: flex;
+  align-items: center;
+}
+
+.user-info p {
+  margin: 0 10px;
+  font-size: 18px;
+}
+
+.user-info img {
+  border-radius: 50%;
+  margin-left: 10px;
+  width: 50px;
+  height: 50px;
+}
+
+button {
+  background-color: #e74c3c;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 25px;
+  margin-left: 15px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #c0392b;
+}
+
+/* Page container */
+.page-container {
+  max-width: 1200px;
+  margin: 100px auto 20px auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Home page */
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+/* Login page */
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-container h1 {
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+.login-container button {
+  padding: 10px 20px;
+  font-size: 1em;
+}
+
+/* Additional styling */
+.footer {
+  margin-top: 50px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-top: 3px solid #d1d8e0;
+  text-align: center;
+  width: 100%;
+}
+
+.footer p {
+  color: #95a5a6;
+  font-size: 14px;
+}
